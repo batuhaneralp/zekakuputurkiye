@@ -31,6 +31,9 @@ jobs:
 
       - name: Go to project folder
         run: cd zkt
+      
+      - name: Go to project folder
+        run: ls
 
       - name: Collect static files
         run: python manage.py collectstatic --noinput
