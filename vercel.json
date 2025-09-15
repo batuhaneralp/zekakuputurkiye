@@ -1,0 +1,13 @@
+{
+    "builds": [{
+      "src": "zekakuputurkiye/wsgi.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.12.11" }
+    }],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "zekakuputurkiye/wsgi.py"
+      }
+    ]
+}
