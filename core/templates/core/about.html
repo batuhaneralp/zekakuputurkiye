@@ -1,0 +1,40 @@
+{% extends "core/base.html" %}
+
+{% block title %}About - MySite{% endblock %}
+
+{% block content %}
+<div class="container text-center">
+  <h1 class="mb-4">About Us</h1>
+  <p class="lead">Connect with us through our social platforms and contact options below.</p>
+
+  <div class="row justify-content-center mt-5">
+    <!-- Instagram -->
+    <div class="col-md-3 mb-3">
+      <a href="https://instagram.com/zekakuputurkiye" target="_blank" rel="noopener noreferrer" class="btn btn-outline-danger w-100">
+        <i class="bi bi-instagram"></i> Instagram
+      </a>
+    </div>
+
+    <!-- YouTube -->
+    <div class="col-md-3 mb-3">
+      <a href="https://youtube.com/@zekakuputurkiye" target="_blank" rel="noopener noreferrer" class="btn btn-outline-danger w-100">
+        <i class="bi bi-youtube"></i> YouTube
+      </a>
+    </div>
+
+    <!-- WhatsApp -->
+    <div class="col-md-3 mb-3">
+      <a href="https://wa.me/905075873376" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success w-100">
+        <i class="bi bi-whatsapp"></i> WhatsApp
+      </a>
+    </div>
+
+    <!-- Email -->
+    <div class="col-md-3 mb-3">
+      <a href="mailto:i.kuleli@gmail.com" class="btn btn-outline-primary w-100">
+        <i class="bi bi-envelope"></i> Email
+      </a>
+    </div>
+  </div>
+</div>
+{% endblock %}
